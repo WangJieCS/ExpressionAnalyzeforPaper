@@ -13,6 +13,10 @@ public class Test2 {
         
         resultStr ="A+sqrt(x)*2-4.2";
         System.out.println(resultStr);
+
+        resultStr ="A+sqrt(x)*4-6";
+        System.out.println(resultStr);
+
         ExpressionEvaluator.parse(resultStr);
     }  
 }  
